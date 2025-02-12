@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot Vyzkumgovcz</title>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <style>
+        .arrow {
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid black;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Chatbot</h1>
@@ -15,5 +27,6 @@
       agent-id="4e982a47-9338-4340-a66b-818f885ab3bc"
       language-code="cs"
     ></df-messenger>
+    <div class="arrow"></div>
 </body>
-</html
+</html>
